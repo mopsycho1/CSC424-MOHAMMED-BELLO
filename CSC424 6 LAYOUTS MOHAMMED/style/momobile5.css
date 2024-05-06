@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #8f8f8f;
+    --back-color: rgb(229, 229, 229);
+    --font-color: white;
+    --footer-color: #7f7f7f;
+}
+
+body {
+    background: var(--back-color);
+    color: var(--font-color);
+    padding: 2em;
+}
+
+section {
+    background: #a2a2a2;
+    border-radius: .8em;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 1.5em;
+}
+
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+    margin-bottom: .6em;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
+    border-radius: .4em;
+}
+
+.hero-content {
+    width: 50%;
+    text-align: right;
+}
+
+.hero-content h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.hero-content p {
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+nav{
+    background: #1e1e1e
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: .4em;
+    overflow: hidden;
+}
+
+ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .8rem;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+    position: relative;
+    transition: .3s;
+}
+
+ul li a:hover {
+    background-color: rgba(109, 109, 109, 0.48);
+    border-radius: .4em;
+    padding: 0 .4rem;
+    margin: 0;
+}
+
+.s1{
+    margin-top: 2em;
+}
+
+.s1 h3{
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.s1-content{
+    display: flex;
+}
+
+.s1-content p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+
+.s3-cont {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.s3-cont1 {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.f1{
+    width: 50%;
+}
+
+.cont1{
+    margin-bottom: 1.5em;
+}
+
+.f1 img {
+    width: 100%;
+    height: 9em;
+    border-radius: .4em;
+    object-fit: cover;
+}
+
+.f1 p{
+    font-size: .8rem;
+    font-weight: 300;
+}

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #d6d6d6;
+    --back-color: rgb(255, 255, 255);
+    --font-color: rgb(0, 0, 0);
+    --footer-color: #989595;
+}
+
+body {
+    background: var(--back-color);
+    color: var(--font-color);
+    padding: 2em;
+}
+
+section {
+    background: #dbdbdb;
+    border-radius: .8em;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 1.5em;
+}
+
+.identity {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 0 1em;
+}
+
+.identity img {
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+}
+
+.identity-cont h3{
+    font-weight: 500;
+}
+
+.identity-cont p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.nav{
+    background: #878787;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: .4em;
+    overflow: hidden;
+}
+
+ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .8rem;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+    position: relative;
+    transition: .3s;
+}
+
+ul li a:hover {
+    background-color: rgba(109, 109, 109, 0.48);
+    border-radius: .4em;
+    padding: 0 .4rem;
+    margin: 0;
+}
+
+.sec{
+    margin-top: 1em;
+}
+
+.sec-sec{
+    display: flex;
+    gap: 1.5em;
+}
+
+.aside1{
+    padding: 1em 0 0;
+    width: 61%
+}
+
+img.top-img{
+    width: 100%;
+}
+
+.s3-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.f2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.f1 img{
+    width: 7.5em;
+    height: 8em;
+    object-fit: cover;
+}
+
+.f1 h3{
+    align-self: flex-start;
+    font-weight: 500;
+}
+
+.f1 p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.f2 h3, .f2 p{
+    width: 88%;
+    align-self: flex-end;
+}
+
+.aside2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aside2-cont h3{
+    font-weight: 500;
+}
+
+.aside2-cont p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+footer {
+    background: var(--footer-color);
+}
+
+.footer-content {
+    margin-top: 2em;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .4em .4em 0 0;
+}
+
+.footer-content p {
+    font-size: .8rem;
+    font-weight: 300;
+}

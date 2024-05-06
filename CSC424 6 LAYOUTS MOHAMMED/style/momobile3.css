@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #737373;
+    --back-color: rgb(255, 255, 255);
+    --font-color: rgb(0, 0, 0);
+    --footer-color: #1e1e1e;
+}
+
+body {
+    background: var(--back-color);
+    color: var(--font-color);
+    padding: 2em;
+}
+
+section {
+    background: #a5a2a2;
+    border-radius: .8em;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 1.5em;
+}
+
+header {
+    border-bottom: 1px solid rgb(137, 137, 137);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0 1em;
+}
+
+.profile img {
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+}
+
+ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+ul li a:hover {
+   background-color: rgba(255, 0, 0, 0.48);
+   border-radius: .4em;
+   padding: .1rem .4rem;
+   margin: 0;
+}
+
+.top-sec{
+    background: url(../images/sergi-dolcet-escrig-cZZMZwgv08o-unsplash.jpg);
+    height: 11em;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-sec{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.sec-contents{
+    display: flex;
+    gap: 2em;
+}
+
+.sec-contents p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.sec-sec h3{
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
+    border-radius: .4em;
+}
+
+.hero-content {
+    width: 50%;
+    text-align: right;
+}
+
+.hero-content h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.hero-content p {
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.s3-cont {
+    margin-top: 1em;
+}
+
+.s3-cont1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1 img {
+    width: 8.5em;
+    height: 8.5em;
+    border-radius: .4em;
+    object-fit: cover;
+}
+
+footer {
+    background: var(--footer-color);
+}
+
+.footer-content {
+    margin-top: 2em;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: center;
+    border-radius: .4em .4em 0 0;
+}
+
+.footer-content p {
+    font-size: .8rem;
+    font-weight: 300;
+}
